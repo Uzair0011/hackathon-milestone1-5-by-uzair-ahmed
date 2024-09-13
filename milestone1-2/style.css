@@ -4,6 +4,16 @@ body {
   padding: 0;
   background-color: azure;
 }
+.profilePicture {
+  display: block;
+  margin: 0;
+  border: 2 solid lightblue;
+  box-shadow: 0 4px 8px darkblue;
+  border-radius: 500%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 h1 {
   text-align: center;
   color: rgba(113, 48, 1, 0.775);
@@ -23,7 +33,6 @@ fieldset {
   margin: 20px;
   background-color: rgb(237, 232, 223);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 legend {
   font-weight: bolder;
@@ -48,7 +57,7 @@ button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color:rgba(113, 48, 1, 0.38);
+  background-color: rgba(113, 48, 1, 0.38);
   color: black(113, 48, 1, 0.775);
   border: none;
   border-radius: 4px;
@@ -57,7 +66,7 @@ button {
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }
-button:hover {
+/* button:hover {
   background-color: rgba(165, 42, 42, 0.831);
   color: rgb(255, 255, 255);
-}
+} */

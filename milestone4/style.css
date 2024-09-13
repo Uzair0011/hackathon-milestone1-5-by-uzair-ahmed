@@ -4,6 +4,16 @@ body {
   padding: 0;
   background-color: azure;
 }
+.profilePicture {
+  display: block;
+  margin: 0;
+  border: 2 solid lightblue;
+  box-shadow: 0 4px 8px darkblue;
+  border-radius: 500%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 h1 {
   text-align: center;
   color: rgba(113, 48, 1, 0.775);
